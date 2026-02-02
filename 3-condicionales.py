@@ -63,7 +63,7 @@ if(not(edad <= 18)):
 # EJERCICIO: Comprobar si el usuario introduce un número y no texto, validar si es par o impar. Notificarselo al usuario.
 # PISTAS: isnumeric(), num%2 = 0
 
-#SOLUCIÓN:
+# SOLUCIÓN:
 numero = input("Por favor, ingresa un número: ")  # Solicita al usuario que ingrese un número
 if(not(numero.isnumeric())):
     print("Datos inválidos. Debe ser un número")  # Se ejecuta si la entrada no es un número
